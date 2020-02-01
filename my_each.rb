@@ -1,7 +1,7 @@
 words = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(array)
-  if 
+  if block_given?
   i = 0 
   while i < array.length 
   yield array[i]
