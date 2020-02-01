@@ -8,6 +8,8 @@ def my_each(array)
   i = i + 1 
   end
   return array 
+else
+  
 end
 
 my_each(words) do |word|
