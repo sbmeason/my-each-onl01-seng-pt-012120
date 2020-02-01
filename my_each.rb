@@ -9,7 +9,7 @@ def my_each(array)
   end
   return array 
 else
-  
+  puts 
 end
 
 my_each(words) do |word|
