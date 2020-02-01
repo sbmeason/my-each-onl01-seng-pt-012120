@@ -9,19 +9,6 @@ def my_each(array)
   end
   return array 
 else
-  puts 
+  puts "This block should not run!"
 end
-
-my_each(words) do |word|
-      puts word
-    end
-  end
-  
-my_each(words)
-counter = 0
-
-    my_each(words) do |item|
-      words.to equal(words[counter])
-      counter+=1
-    end
-  end
+end
