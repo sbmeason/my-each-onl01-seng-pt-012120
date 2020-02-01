@@ -12,3 +12,12 @@ my_each(words) do |word|
       puts word
     end
   end
+  
+my_each(words)
+counter = 0
+
+    my_each(words) do |item|
+      expect(item).to equal(words[counter])
+      counter+=1
+    end
+  end
